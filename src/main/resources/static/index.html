@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>SUT AOP</title>
+<base href="/" />
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <h1>IST-912M Lobanov O.A </h1>
+    <div class="container unauthenticated">
+        With Facebook: <a href="/login">click here</a>
+    </div>
+    <div class="container authenticated" style="display: none">
+        Logged in as: <span id="user"></span>
+        <div id="post-div">
+            <button onclick="showFeed()">Посмотреть мои публикации</button>
+            <div id="post-data"></div>
+        </div>
+    </div>
+</body>
+</html>
